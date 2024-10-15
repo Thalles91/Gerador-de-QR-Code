@@ -1,14 +1,3 @@
-/* <uniquifier>: Use a unique and descriptive class name
- <weight>: Use a value from 200 to 1000
-
-.nunito-<uniquifier> {
-  font-family: "Nunito", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-*/
-
 * {
     font-family: "Nunito", sans-serif;
     margin: 0;
