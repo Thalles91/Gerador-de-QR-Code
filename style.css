@@ -1,0 +1,149 @@
+/* <uniquifier>: Use a unique and descriptive class name
+ <weight>: Use a value from 200 to 1000
+
+.nunito-<uniquifier> {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+*/
+
+* {
+    font-family: "Nunito", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    margin: auto;
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+    font-weight:bold;
+    background-color:darkslategrey;
+    min-width: 100vh;
+}
+
+.container {
+
+    margin-top: 40px;
+    border: 50px;
+    border-radius: 18px;
+    width: 50%; /* Ajuste para deixar mais estreito */
+    max-width: 1200px; /* Define um limite máximo de largura */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    padding: 20px; /* Adiciona espaço interno */
+    box-sizing: border-box; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    background-color: azure;    
+}
+
+h1 {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 50px ;
+}
+
+p {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 20px ;
+}
+
+/* >>>> div model <<<< */
+.formulario {
+    display: flex;
+    font-family: "Nunito", sans-serif;
+    flex-direction: column;
+    font-weight: weight;
+    font-style: normal;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 20px ;
+}
+
+.formatobotao {
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+.botao {
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 16px;
+    color:lightblue;
+    background-color: black;
+    border-radius: 40px;
+    width: 150px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.botao:hover {
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 16px;
+    color:black;
+    background-color:lightblue;
+    border-radius: 40px;
+    width: 150px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+input::placeholder {
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    font-size: 16px;
+    color:black;
+    background-color: white;
+    
+}
+
+input {
+    display: flex;
+    width: 300px;   /* Define a largura da caixa de texto */
+    height:50px;   /* Define a altura da caixa de texto */
+    padding: 10px;  /* Espaçamento interno do campo */
+    font-size: 16px; /* Tamanho da fonte para o input */
+}
+
+.menina {
+    background-size: cover;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.qrcode {
+    position: absolute;
+    top: 48%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
